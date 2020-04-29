@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2015</pubdate>
+        <title>USGS High Resolution Orthoimage 62451930, San Diego, CA</title>
+        <geoform>remote-sensing image</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set consists of 1-foot pixel resolution (0.3-meter), natural color orthoimages covering the urban area footprint.  An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and sensor orientation have been mathematically removed. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map.  The design accuracy is estimated not to exceed 1.52-meters NSSDA 95% confidence (0.88-meters RMSE or 0.62-meter RMSE in X or Y).  Each orthoimage provides imagery over a 5000-foot by 5000-foot block on the ground. There is no image overlap between adjacent files. The projected coordinate system is State Plane with a NAD83 datum.</abstract>
+      <purpose>This data depicts geographic features on the surface of the earth.  It was created to provide easily accessible geospatial data which is readily available to enhance the capability of Federal, State, and local emergency responders, as well as plan for homeland security efforts.  This data also supports The National Map.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+      		<begdate>20141018</begdate>
+      		<enddate>20141021</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>irregular</update>
+    </status>
+    <spdom>
+    	<bounding>
+      	<westbc>-117.2825358</westbc> 
+      	<eastbc>-117.2660748</eastbc> 
+      	<northbc>32.9721154</northbc> 
+      	<southbc>32.9582390</southbc> 
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>0.3 meter orthoimage</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>natural color orthophoto</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>image map</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>US</placekey>
+        <placekey>MX</placekey>
+      </place>
+      <place>
+        <placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>CA</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>San Diego, CA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None.   However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.  Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst>
+    <datacred>Quantum Spatial coordinated the data collection and deliverables.</datacred>
+    <native>Windows 7, ArcGIS 10, MicroStation, Intergraph GeoMedia</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Radiometry is verified by visual inspection of the digital orthophoto.  Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</attraccr>
+    </attracc>
+    <logic>All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived.   This validation procedure ensures correct physical format and field values for tagged elements.  Seamlines and tile edges are visually inspected.  Seamline mismatches are not corrected unless the overall displacement exceeds one meter.</logic>
+    <complete>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free. Photography was flown during leaf-off in deciduous vegetation regions. There are no void areas within the project boundary.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy was contracted to meet accuracies of 1.52-meters NSSDA 95% confidence (0.88-meters RMSE or 0.62-meter RMSE in X or Y).  The dataset was tested using Compass Accuracy Analyst.  Please see the project report for the full report.</horizpar>
+        <qhorizpa>
+          <horizpav>3.954</horizpav>
+          <horizpae>NSSDA 95% confidence in feet using 31 control points.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>2014</pubdate>
+            <title>GPS Photo Control Survey for San Diego, CA</title>
+            <geoform>Model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150106</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CONTROL</srccitea>
+        <srccontr>Photo Science performed a geodetic control survey in support of a digital orthophoto production project covering San Diego, California. The survey was done using the Global Positioning System (GPS). A combination of 82 new photo identifiable and 13 paneled control points.  There were also 29 ortho quality control points and 80 LiDAR different ground cover type check points.  Photo control points have a combined local and network accuracy at 95% confidence of less than or equal to five (5) centimeters horizontally and vertically as determined by the residuals of the network adjustment.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Georeferenced Single Frames</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>external hard drive</typesrc>
+        <srctime>
+          <timeinfo>
+        <mdattim>
+      		<sngdate>
+      				<caldate>20141018</caldate>
+      		</sngdate>
+      		<sngdate>
+      				<caldate>20141021</caldate>
+      		</sngdate>
+</mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PHOTO</srccitea>
+        <srccontr>Aerial imagery was acquired using a Microsoft UltraCam Eagle (UCE) with a flight design that included a total of 7574 exposures in 129 flight lines (0.3-meter area: 1719 Frames, 44 Flight Lines; 0.10-meter area: 5643 Frames, 74 Flight Lines; Urban Core Area: 178 Frames, 11 Flight Lines). Aerial imagery was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Aerotriangulation</title>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2015</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>AT</srccitea>
+        <srccontr>Softcopy aerotriangulation was performed utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image of the project.  Smartbase was used.  Maximum and mean differential baseline lengths are not generated.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>DEM/DTM</title>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>DVD</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+            	<begdate>20141027</begdate>
+            	<enddate>20141227</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>A compilation of the LiDAR data for use in developing digital ortho imagery.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digital aerial imagery was obtained using a large format UltraCam Eagle (UCE) equipped with Airborne GPS/IMU covering the San Diego AOI.  A total of 129 flight lines with 7540 frames were collected in the winter/spring of 2014/2015 in multi-spectral (RGB and NIR) 16 bits per band format. This includes the acquisition of supplemental imagery over downtown (11 Flight Lines; 178 Frames) that was used to minimize building lean in the orthophotography production process.  The imagery was acquired under conditions free from clouds and cloud shadows, smoke, fog, haze, light streaks, snow, ice on water bodies, foliage, flooding, and excessive soil moisture. The sun angle threshold was 30 degrees.  The imagery consisted of panchromatic, blue, green, red and near infrared bands.  The three color bands and near infrared bands have been pan sharpened and archived as frame imagery. Imagery for the photogrammetric mapping and digital orthophotos was captured according to the USGS Contract No. G10PC00026; USGS Task Order: G14PD01045; Requisition Reference Numbers: 0040178742 and 0040187559 (amendment) regarding, snow, haze and cloud cover, and modified as appropriate to accommodate the requirements specific to UCE camera technologies and as specified in this scope of work.</procdesc>
+        <srcused>RAWs</srcused>
+        <procdate>2014</procdate>
+        <srcprod>Georefs</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>A total of 124 ground based photo control points including 79 blind QC ground based photo control points were established throughout the area of interest using a combination of conventional and GPS survey methods in order to support softcopy aerotriangulation and photogrammetric mapping meeting the accuracies specified in this Scope of Work.  This control supplemented the exposure station control obtained from the onboard Airborne Global Positioning System (ABGPS) and Inertial Measurement Unit (IMU). Photo control points established for this project have a combined local and network accuracy at 95% confidence of less than or equal to five (5) centimeters horizontally and vertically as determined by the residuals of the network adjustment. Ground control collection followed requirements set forth in USGS Contract No. G10PC00026; USGS Task Order: G14PD01045; Requisition Reference Numbers: 0040178742 and 0040187559 (amendment), and were modified as appropriate to accommodate the specifications related to ABGPS collection specific to these end photogrammetric mapping requirements.</procdesc>
+        <srcused>Geodetic control</srcused>
+        <procdate>2014</procdate>
+        <srcprod>Control</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Softcopy aerotriangulation was performed on three large blocks of imagery utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image frame to support the photogrammetric process and orthophoto production.  The adjusted Root Mean Square Error (RMSE) of all horizontal and vertical control points used for any single block adjustment was 1.0 foot or better.  At the same time, residuals on each refined image coordinate remain less than 12 microns and residuals on any horizontal or vertical control point did not exceed plus or minus 2.0 feet.  Within each block, the blind QA ground survey coordinates were within two times the RMSE (two feet) of the corresponding AT derived coordinates.</procdesc>
+        <srcused>ABGPS</srcused>
+        <srcused>Control</srcused>
+        <srcused>RAWs</srcused>
+        <procdate>2014</procdate>
+        <srcprod>AT</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>This process involved the development of a seamless topographic landform elevation dataset utilizing the LiDAR data collected under the same contract. The topographic features included a grid of elevation points and may include break lines that define ridges, valleys, edge of water, transportation features and abrupt changes in elevation.  The final DTM is suitable for orthophoto production only (not suitable for contour generation).  The DTM is used to then generate a Triangulated Irregular Network (TIN) to support orthophoto production.</procdesc>
+        <srcused>DTM</srcused>
+        <srcused>DEM</srcused>
+        <procdate>2014</procdate>
+        <srcprod>DTM/DEM</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Utilizing all four pan-sharpened bands [blue (B), green (G), red(R) and near infrared (IR)] digital orthorectification was performed using cubic convolution algorithms resulting in a spatial and radiometric transformation of the digital image from line/sample space into the State Plane, NAD83, California VI FIPS 0406, feet. The interior and exterior orientation parameters from the aerotriangulation process were used to project each pixel into the ground coordinate system, while the ortho grade DEM/DTM was used to correct for relief displacement. Radiometric correction software and techniques were used to create orthophoto files that minimize the appearance of image seams and without loss of feature signature. Orthophotos are checked for geometric accuracy, image quality and tonally balanced to produce a uniform contrast and tone across the entire project.
+          For 1' tiles: The individual overlapping orthophoto frames were mosaicked together and the final tiles were extracted from the image set to adhere to the 5000-foot x 5000-foot tiling scheme consisting of 3710 individual ortho tiles.  Delivery included digital ortho photos at a 1' (30cm) pixel ground sample distance in 8 bit, 4 band (RGBIR) uncompressed GeoTIFF.  The ortho photos meet a horizontal accuracy of 1.52-meters or less at 95% confidence level when compared to higher accuracy check points based on NSSDA testing standards.  
+          For 4-inch tiles: The individual overlapping orthophoto frames were mosaicked together and the final tiles were extracted from the image set to adhere to the 2500-foot x 2500-foot tiling scheme consisting of 6296 individual ortho tiles.  Delivery included digital ortho photos at a 4" (10cm) pixel ground sample distance in 8 bit, 4 band (RGBIR) uncompressed GeoTIFF.  The ortho photos meet a horizontal accuracy of 0.298-meters or less at 95% confidence level when compared to higher accuracy check points based on NSSDA testing standards. UTM Tiles, masked tiles excluding the military areas, and MrSID Files at a compression ratio of 15:1 are also created.</procdesc>
+        <srcused>Georefs</srcused>
+        <srcused>AT</srcused>
+        <srcused>Control</srcused>
+        <srcused>DTM/DEM</srcused>
+        <procdate>20145</procdate>
+        <srcprod>Orthos</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>0406</spcszone>
+            <lambertc>
+              <stdparll>32.78333333333333</stdparll>
+              <stdparll>33.88333333333333</stdparll>
+              <longcm>-116.25</longcm>
+              <latprjo>32.16666666666666</latprjo>
+              <feast>2000000.0</feast>
+              <fnorth>500000.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>foot</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.2572221</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Natural color orthoimagery is organized in three color bands or channels which represent the red, green, and blue (RGB) portions of the spectrum.  A fourth band of imagery, representing the near infrared channel is also available with this dataset.  Each image pixel is assigned a triplet of numeric values, one for each color band.  Numeric values range from 0 to 255.</eaover>
+      <eadetcit>U.S. Department of the Interior, U.S. Geological Survey, 1996, Standards for Digital Orthophotos: Reston, VA.</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20151027</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40506</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>The above is the contact information for the contracting agency, Quantum Spatial. The EROS Data Center in Sioux Falls, SD is the digital data storage and distribution center for the USGS. Metadata information can also be obtained through online services using The National Map Viewer, at http:/nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
+
